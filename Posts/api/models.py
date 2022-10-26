@@ -6,7 +6,7 @@ from django.forms import CharField
 
 # Create your models here.
 
-class Posts(model.Model):
+class Posts(models.Model):
     title = models.CharField(max_length=20)
     content = models.CharField(max_length=20)
 
