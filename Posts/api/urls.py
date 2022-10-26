@@ -7,4 +7,5 @@ router.register(r'posts',views.PostViewSet)
 
 urlpatterns = [
     path('',include(router.urls)),
+    path('home/',views.home,name='home'),
 ]
